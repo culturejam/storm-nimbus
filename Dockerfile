@@ -1,5 +1,5 @@
-FROM promojam/storm-docker:0.9.4
-MAINTAINER Promojam
+FROM wurstmeister/storm:0.9.4
+MAINTAINER Wurstmeister
 
 RUN /usr/bin/config-supervisord.sh nimbus 
 RUN /usr/bin/config-supervisord.sh drpc
