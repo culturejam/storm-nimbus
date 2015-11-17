@@ -1,4 +1,4 @@
-FROM promojam/storm:0.9.4
+FROM promojam/storm-docker:0.9.4
 MAINTAINER Promojam
 
 RUN /usr/bin/config-supervisord.sh nimbus 
